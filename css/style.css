@@ -1,1 +1,33 @@
-
+.container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+}
+.box1,
+.box2,
+.box3,
+.box4{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.box1{
+    background-color: lightgreen;
+}
+.box2{
+    background-color: lightblue;
+    top: 0;
+    right: 0;
+}
+.box3{
+    background-color: lightseagreen;
+    bottom: 0;
+    left: 0;
+}
+.box4{
+    background-color: lightcyan;
+    bottom: 0;
+    right: 0;
+}
