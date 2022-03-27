@@ -1,3 +1,17 @@
+
+/* estilos para el header */
+.header{
+    background-color: lightslategrey;
+}
+
+.menu{
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+
+
+/* estilos de las cajas */
 .container{
     position: relative;
     width: 400px;
