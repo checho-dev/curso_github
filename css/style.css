@@ -5,8 +5,15 @@
 }
 
 .menu{
+    display: flex;
+    list-style: none;
     margin-block-start: 0;
     margin-block-end: 0;
+
+}
+.menu__item{
+    margin-left: 1em;
+    padding: 2em;
 
 }
 
